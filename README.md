@@ -120,6 +120,3 @@ Bu komut çıktı klasöründe `arm64-v8a`, `armeabi-v7a` ve `x86_64` için ayr�
 
 ## 📜 Lisans
 Bu proje **GNU General Public License v3.0 (GPLv3)** ile lisanslanmıştır. Detaylar için "LICENSE" dosyasına göz atabilirsiniz.
-```
-
-```
