@@ -1,0 +1,6 @@
+# Gerçek key.properties dosyanı koru (içinde senin şifrelerin var).
+# Bu dosya sadece formattır:
+storePassword=...
+keyPassword=...
+keyAlias=cobblestone
+storeFile=cobblestone-key.jks
