@@ -24,21 +24,22 @@
 
 Proje, temiz mimari (Clean Architecture) ve modüler servis yapısı gözetilerek Flutter (Dart) ve Android Native (Kotlin) katmanlarında geliştirilmiştir.
 
+```
 lib/
-├── models/ # Veri modelleri (SongItem, PlaylistItem)
-├── screens/ # Uygulama ekranları (Player, Playlists, Folders, EQ, Smart vs.)
-├── services/ # Arka plan servisleri (Player, Library, EQ, ID3, Storage, Stats)
-├── theme/ # Renk paletleri ve görsel stiller (CobbleStyle, Palette)
-└── widgets/ # Yeniden kullanılabilir özel widget'lar (MiniPlayer, MarqueeText vb.)
+├── models/             # Veri modelleri (SongItem, PlaylistItem)
+├── screens/            # Uygulama ekranları (Player, Playlists, Folders, EQ, Smart vs.)
+├── services/           # Arka plan servisleri (Player, Library, EQ, ID3, Storage, Stats)
+├── theme/              # Renk paletleri ve görsel stiller (CobbleStyle, Palette)
+└── widgets/            # Yeniden kullanılabilir özel widget'lar (MiniPlayer, MarqueeText vb.)
 
 android/app/src/main/kotlin/com/cobblestone/cobblestone/
 ├── BiquadEqProcessor.kt # Yerel EQ işleme motoru
-├── BrowseTree.kt # Android Auto medya ağacı yapısı
-├── CobbleMedia.kt # Medya öğeleri entegrasyonu
-├── CoverResolver.kt # Yüksek hızlı albüm kapağı çözücü
-├── LibraryScanService.kt# Yerel depolama tarama servisi
-└── PlaybackService.kt # Arka plan medya oynatma ve bildirim yönetimi
-
+├── BrowseTree.kt        # Android Auto medya ağacı yapısı
+├── CobbleMedia.kt       # Medya öğeleri entegrasyonu
+├── CoverResolver.kt     # Yüksek hızlı albüm kapağı çözücü
+├── LibraryScanService.kt # Yerel depolama tarama servisi
+└── PlaybackService.kt   # Arka plan medya oynatma ve bildirim yönetimi
+```
 
 ---
 
